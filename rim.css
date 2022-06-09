@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Jua&display=swap');
+
+@font-face {
+    font-family: 'CWDangamAsac-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jua';
+  }
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    padding: 8px 30px;
+}
+
+.menu li:hover{
+    background-color: #ffbcab;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: #074fcc;
+}
+
+@media screen and (max-width: 550px) {
+    .navigation{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px
+    }
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        width: 100%;
+    }
+    .menu li{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+body {
+    background-image: url('back.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+  
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: rgb(250, 255, 200);
+    border-top-right-radius: 20px;
+}
+  
+.welcome{
+    text-align: center;
+    padding:50px;
+    
+}
+
+#plus{
+    display: flex;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+  
+.welcome h1{
+    font-family: 'CWDangamAsac-Bold';
+    color: rgb(13, 51, 174);
+    text-align: center;
+}
+
+hr{
+    border-color: #161265;
+    border: 2;
+}
+
+.content{
+    background-color: #cafcf9;
+    border-bottom-right-radius: 20px;
+    padding: 30px;
+}
+
+.project div{
+    align-items: flex-start;
+    display: flex;
+}
+
+table h4{
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.content p{
+      font-size: 15px;
+      color: rgb(71, 71, 71);
+      padding-left: 40px;
+      padding-bottom: 20px;
+}
+
+.content li{
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+    padding-left: 40px;
+}
+
+.tittle{
+     padding: 10px;
+     text-align: center;
+}
+
+#profile {
+    width: 250px;
+    padding: 30px 45px;
+    background-color: #FFF;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 4px 0px 10px -2px rgba(10, 10, 10, 0.1);
+}
+  
+.intro {
+    color: #161265;
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.details {
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.details h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #2193b0;
+    margin-bottom: 9px;
+}
+
+.Box {
+    border: solid 2px #666;
+    border-radius: 10px;
+    width: 100%;
+    padding: 4px 7px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+  
+.Box:hover {
+    border: solid 1px #FFF;
+    color: #FFF;
+    transition: 0.1s;
+    background: #ffbcab;
+}
